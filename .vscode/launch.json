@@ -1,0 +1,43 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        /*{
+            "name": "srvsql",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://srvsql:14080",
+            "serverInstance": "Uniderm-BC",
+            "port": 22149,
+            "authentication": "Windows",
+            //"startupObjectId": 22,
+            //"startupObjectType": "Page",
+            "breakOnError": "All",
+            //"launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true,
+            "schemaUpdateMode": "ForceSync"
+        },*/
+        {
+            "name": "win2022",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "OnPrem",
+            "server": "http://win2022:8080",
+            "serverInstance": "UnidermBCPublish",
+            "port": 22249,
+            "authentication": "Windows",
+            //"startupObjectId": 22,
+            //"startupObjectType": "Page",
+            "breakOnError": "All",
+            //"launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true,
+            "schemaUpdateMode": "ForceSync"
+        }
+    ]
+}
